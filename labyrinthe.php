@@ -108,12 +108,14 @@
             document.form.hauteur.value = hauteur
             document.form.largeur.value = largeur
         </SCRIPT>
+        <span>Vous devez vous rendre à la case verte.</span>
         <FORM>           
-            <INPUT type="button" value="Haut" onclick="move(56)"><BR>
+            <INPUT type="button" value="Haut" onclick="move(56)" style="margin-left: 46px;"><BR>
             <INPUT type="button" value="Gauche" onclick="move(52)">
             <INPUT type="button" value="Droite" onclick="move(54)"><BR>            
-            <INPUT type="button" value="Bas" onclick="move(50)">
+            <INPUT type="button" value="Bas" onclick="move(50)"style="margin-left: 46px;"><BR><BR>
+            <INPUT type="button" value="Recommencer" onclick="window.location.reload();">
         </FORM>
-        Vous devez vous rendre à la case verte.
+        
     </BODY>
 </HTML>
